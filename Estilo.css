@@ -1,0 +1,75 @@
+/* Estilo básico do corpo da página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #6A5ACD; /* Um fundo claro */
+    color: #333; /* Cor do texto */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  /* Estilo do cabeçalho */
+  h1, h2 {
+    text-align: center;
+    color: #333;
+  }
+  
+  /* Imagem do perfil arredondada */
+  img {
+    border-radius: 50%; /* Bordas arredondadas para a imagem */
+    width: 150px; /* Ajuste o tamanho conforme necessário */
+    height: 150px;
+    object-fit: cover; /* Faz com que a imagem se ajuste sem distorcer */
+    border: 3px solid #333; /* Borda sutil ao redor da imagem */
+  }
+  
+  /* Link de atividade */
+  a {
+    color: #1e90ff; /* Cor do link */
+    text-decoration: none;
+    font-size: 1.2em;
+    margin: 10px 0;
+  }
+  
+  a:hover {
+    color: #ff6347; /* Cor ao passar o mouse */
+    text-decoration: underline;
+  }
+  
+  /* Adicionando uma lista de atividades */
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+    font-size: 1.1em;
+  }
+  
+  li a {
+    color: #1e90ff;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    color: #ff6347;
+    text-decoration: underline;
+  }
+  
+  /* Estilizando o título principal */
+  h1 {
+    font-size: 2em;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    font-size: 1.5em;
+    color: #666;
+    margin-top: 10px;
+  }
+  
